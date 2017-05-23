@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 應用程式</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Style/css")
+    @Styles.Render("~/SearchStyle/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container-fluid" id="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+
+                    <a href="#"><img src="~/Images/3.png" class="logo" alt="Image" style="height:100px;"></a>
+                </div>
+
+                <div class="col-xs-offset-8 col-sm-1 col-md-1 col-lg-1">
+
+                    <a href="#"><img src="~/Images/img1.png" class="login" alt="Image"></a>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+                    <a href="#"> <img src="~/Images/img2.png" class="add " alt="Image"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+
+    <div class="footer">
+        <div class="container-fluid">
+            <span class="footertext">Copyright &copy; 2017 開賣啦</span>
+        </div>
+    </div>
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Content/bootstrap.css")
+    @Scripts.Render("~/Content/bootstrap.min.css")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
