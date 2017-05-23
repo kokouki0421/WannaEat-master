@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Style.css" rel="stylesheet" />
+
+<div class="container-fluid" id="title">
+    <div class="container">
+        <div class="row">
+            <img class="img" src="~/Images/img3.png" alt="image">
+            <form class="conA form-inline">
+                <div class="input-group">
+                    <input class="form-control" style="width:500px;height:40px; font-size:20px;" placeholder="請搜尋關鍵字" aria-label="Text input with multiple buttons">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default" style="height:40px;width:40px;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="row">
+
+                <div class="conB">
+                    <span>請選擇城市  <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> </span>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ---請選擇---
+                            <span class="caret">
+                            </span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">新北市</a></li>
+                            <li><a href="#">新竹市</a></li>
+                            <li><a href="#">基隆市</a></li>
+                        </ul>
+                    </div>
+                    <span>請選擇區域  <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> </span>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ---請選擇---
+                            <span class="caret">
+                            </span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">林口區</a></li>
+                            <li><a href="#">三峽區</a></li>
+                            <li><a href="#">貢寮區</a></li>
+                        </ul>
+                    </div>
+                    <span>請選擇路名  <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> </span>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ---請選擇---
+                            <span class="caret">
+                            </span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">中正路</a></li>
+                            <li><a href="#">北大路</a></li>
+                            <li><a href="#">西大路</a></li>
+                        </ul>
+                    </div>
+                    <a href=""><span class="glyphicon glyphicon-search sear" aria-hidden="true"></span></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container body">
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">排行榜</a></li>
+        <li role="presentation"><a href="#">促銷訊息</a></li>
+    </ul>
+    <div class="panel-body panA">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                    <div class="panel-body panB">
+
+                    </div>
+                </div>
+                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="panel-body panC">
+                                1
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="panel-body panD">
+                                2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="panel-body panC">
+                                3
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                            <div class="panel-body panD">
+                                4
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

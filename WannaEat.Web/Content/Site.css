@@ -1,0 +1,23 @@
+﻿body {
+    font-family: Microsoft JhengHei;
+}
+
+#head {
+    border-bottom: grey solid;
+}
+
+.login {
+    margin-top: 25px;
+}
+
+.add {
+    margin-top: 25px;
+    margin-left: -20px;
+}
+.footer {
+    background: #DDDDDD;
+    color: #444444;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    clear: both;
+}

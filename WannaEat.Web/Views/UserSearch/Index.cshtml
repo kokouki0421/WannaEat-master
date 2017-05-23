@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewBag.Title = "UserSearch";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/SearchStyle.css" rel="stylesheet" />
+
+<body>
+    <div class="container-fluid" id="title">
+        <div class="container">
+            <div class="row">
+                <form class="conA form-inline">
+                    <div class="input-group">
+                        <input class="form-control" style="width:500px;height:40px; font-size:20px;" placeholder="請搜尋關鍵字" aria-label="Text input with multiple buttons">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default" style="height:40px;width:40px;"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="row">
+
+                    <div class="conB">
+                        <span>請選擇城市  <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> </span>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ---請選擇---
+                                <span class="caret">
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">新北市</a></li>
+                                <li><a href="#">新竹市</a></li>
+                                <li><a href="#">基隆市</a></li>
+                            </ul>
+                        </div>
+                        <span>請選擇區域  <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> </span>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ---請選擇---
+                                <span class="caret">
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">林口區</a></li>
+                                <li><a href="#">三峽區</a></li>
+                                <li><a href="#">貢寮區</a></li>
+                            </ul>
+                        </div>
+                        <span>請選擇路名  <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> </span>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ---請選擇---
+                                <span class="caret">
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">中正路</a></li>
+                                <li><a href="#">北大路</a></li>
+                                <li><a href="#">西大路</a></li>
+                            </ul>
+                        </div>
+                        <a href=""><span class="glyphicon glyphicon-search sear" aria-hidden="true"></span></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="text">搜尋結果</p>
+        <div class="panel-body pan ">
+
+
+            <div class="media-left">
+                <a href=""> <span class="fa fa-lightbulb-o  fa-5x " aria-hidden="true"></span></a>
+                <a href="#"> <img class="picture" src='https://dummyimage.com/200x200/E0E0E0.png' alt='' /> </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">比爾叔雞蛋糕<i class="fa fa-star-o" aria-hidden="true"></i></h3>外酥內軟，給你比C#還驚奇的口感
+                <a href=""> <span class="label label-warning">more</span></a>
+            </div>
+        </div>
+        <div class="panel-body pan ">
+
+
+            <div class="media-left">
+                <a href=""> <span class="fa fa-lightbulb-o  fa-5x " aria-hidden="true"></span></a>
+                <a href="#"> <img class="picture" src='https://dummyimage.com/200x200/E0E0E0.png' alt='' /> </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">比爾叔雞蛋糕<i class="fa fa-star" aria-hidden="true"></i></h3>外酥內軟，給你比C#還驚奇的口感
+                <a href=""> <span class="label label-warning">more</span></a>
+            </div>
+        </div>
+        <div class="panel-body pan ">
+
+
+            <div class="media-left">
+                <a href=""> <span class="fa fa-lightbulb-o  fa-5x " aria-hidden="true"></span></a>
+                <a href="#"> <img class="picture" src='https://dummyimage.com/200x200/E0E0E0.png' alt='' /> </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">比爾叔雞蛋糕<i class="fa fa-star" aria-hidden="true"></i></h3>外酥內軟，給你比C#還驚奇的口感
+                <a href=""> <span class="label label-warning">more</span></a>
+            </div>
+        </div>
+        <div class="panel-body pan ">
+
+
+            <div class="media-left">
+                <a href=""> <span class="fa fa-lightbulb-o  fa-5x " aria-hidden="true"></span></a>
+                <a href="#"> <img class="picture" src='https://dummyimage.com/200x200/E0E0E0.png' alt='' /> </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">爹某臭豆腐<i class="fa fa-star-o" aria-hidden="true"></i></h3>泡菜加臭豆腐，讓你有如MVC般的多重口感
+                <a href=""> <span class="label label-warning">more</span></a>
+            </div>
+        </div>
+        <div class="panel-body pan ">
+            <div class="media-left">
+                <a href=""> <span class="fa fa-lightbulb-o  fa-5x " aria-hidden="true"></span></a>
+                <a href="#"> <img class="picture" src='https://dummyimage.com/200x200/E0E0E0.png' alt='' /> </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">迪諾咖啡店<i class="fa fa-star-o" aria-hidden="true"></i></h3>香醇口感，拉花就像CSS一樣厲害
+                <a href=""><span class="label label-warning">more</span></a>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,87 @@
+﻿body {
+    font-family: Microsoft JhengHei;
+}
+
+#head {
+    border-bottom: grey solid;
+}
+
+.login {
+    margin-top: 25px;
+}
+
+.add {
+    margin-top: 25px;
+    margin-left: -20px;
+}
+
+#title {
+    border-bottom: grey solid;
+    text-align: center;
+    background-color: whitesmoke;
+    height:480px;
+    padding-top:50px;
+  
+}
+
+    #title .img {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+.conA {
+    margin: 20px;
+}
+
+.conB {
+    margin-bottom: 20px;
+}
+
+.body {
+    margin-top: 20px;
+}
+
+.panA {
+    border: solid;
+    border-width: 1px;
+    border-color: #F0F0F0;
+    border-top-color: #FFFFFF;
+}
+
+.panB {
+    border: solid;
+    border-width: 1px;
+    border-color: #ADADAD;
+    border-radius: 5px;
+    width: 500px;
+    height: 650px;
+}
+
+.panC {
+    border: solid;
+    border-width: 1px;
+    border-color: #ADADAD;
+    border-radius: 5px;
+    width: 270px;
+    height: 315px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.panD {
+    border: solid;
+    border-width: 1px;
+    border-color: #ADADAD;
+    border-radius: 5px;
+    width: 270px;
+    height: 315px;
+    margin-left: -25px;
+}
+
+.footer {
+    background: #DDDDDD;
+    color: #444444;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    clear: both;
+}

@@ -1,0 +1,59 @@
+﻿
+#title {
+    border-bottom: grey solid;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cona {
+    width: 800px;
+    margin-left: 365px;
+    margin-top: 50px;
+}
+
+    .cona input,
+    button {
+        height: 40px;
+        font-size: 28px;
+    }
+
+.sear {
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.conb {
+    width: 800px;
+    margin-left: 365px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 36px;
+    text-align: center;
+}
+
+.picture {
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: -150PX;
+}
+
+.more {
+    width: 100px;
+}
+
+.pan {
+    margin-top: 100px;
+}
+
+.footer {
+    background: #DDDDDD;
+    color: #444444;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+    clear: both;
+}
